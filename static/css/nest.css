@@ -176,7 +176,7 @@ h4:after {
     height:100px;
     line-height:100px;
     color:#fff;
-    font-size:12px;
+    font-size:18px;
     font-weight:600;
 }
 .header-nav .nav{
@@ -204,7 +204,7 @@ h4:after {
     background-color: rgba(0,0,0,0.2);
 }
 .header-logo {
-    font-size:15px;
+    font-size:20px;
     font-weight:600;
     text-transform: uppercase;
 }
@@ -235,7 +235,7 @@ h4:after {
 }
 .header-date {
     margin-top: 15px;
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
     opacity: 0.8;
 
@@ -252,20 +252,20 @@ h4:after {
     border-bottom: 3px solid #eb2344;
 }
 .header-subtitle {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
     text-align: justify;
 }
 .header-subtitle-homepage {
     text-align: center;
-    font-style: italic;
+    /*font-style: italic;*/
 }
 .header-tags {
-    font-size: 11px;
+    font-size: 14px;
     color: #fff;
-    font-style: italic;
+    /*font-style: italic;*/
 }
 .header-tags a {
     color: #fff;
@@ -369,7 +369,7 @@ h4:after {
     margin-bottom: 40px; 
 }
 .archive {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     padding-top: 20px;
     padding-bottom: 40px;
@@ -385,7 +385,7 @@ h4:after {
     text-decoration: None;
 }
 .archive dt{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;    
 }
