@@ -28,6 +28,20 @@
 {% endblock header %}
 
 {% block content %}
+    <div class="container content">
+        {% for article in articles_page.object_list %}
+            {% if loop.first %}
+                <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} </a></h2>
+                {% if article.has_summary %}
+                    {{ article.summary }}
+                {% elif article.content %}
+                    {{ article.content|striptags|truncate(500, False, '...', 0) }}
+                {% endif %}
+                <dd><a href="{{ SITEURL }}/{{ article.url }}">more</a></dd>
+            {% endif %}
+        {% endfor %}
+    </div>
+
     {% if DEFAULT_PAGINATION %}    
     <div class="archive-container">
         <div class="container content archive">
