@@ -37,13 +37,16 @@ body {
 /* 009bff*/
 /* CE2323 */
 a, a:visited { 
-    color: #eb2344; 
-    text-decoration: none; 
+    color: #B1102B;
+    /*color: #eb2344;*/
+    text-decoration: underline;
     transition: all 0.2s ease-out;
+    font-weight: bold;
 }
 a:hover, a:active{ 
     text-decoration:underline; 
-    color:#eb2344; 
+    color: #B1102B;
+    /*color:#eb2344;*/
 /*    opacity: 0.8; */
 }
 
@@ -57,7 +60,7 @@ a.navigate{
     text-transform: uppercase;
     font-weight: 600;
     color:#fff;
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 a.navigate:hover{
     opacity: 0.8;
@@ -131,12 +134,18 @@ h2 {
     margin-top: 40px;   
     margin-bottom: 40px;
 }
+
+h2 a {
+    text-decoration: none;
+}
+
 h2:after {
     display: block;
     content: " ";
     margin-top: 10px;
     width: 40px;
-    border-bottom: 3px solid rgba(235,35,68,1);
+    border-bottom: 3px solid rgba(177,16,43,1);
+    /*border-bottom: 3px solid rgba(235,35,68,1);*/
     /*border-bottom: 3px solid rgba(0,0,0,0.2);*/
 }
 
@@ -152,7 +161,8 @@ h3:after {
     content: " ";
     margin-top: 10px;
     width: 40px;
-    border-bottom: 3px solid rgba(235,35,68,1);
+    border-bottom: 3px solid rgba(177,16,43,1);
+    /*border-bottom: 3px solid rgba(235,35,68,1);*/
 }
 
 h4 { 
@@ -195,13 +205,12 @@ h4:after {
     color:#fff;
     font-weight:600;
     opacity: 1;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.6);
 }
 .header-nav .nav .active{
-    /*color:#fff;*/
     color:#fff;
     font-weight:600;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.75);
 }
 .header-logo {
     font-size:20px;
@@ -249,7 +258,8 @@ h4:after {
     margin-top: 10px;
     margin-bottom: 15px;
     width: 50px;
-    border-bottom: 3px solid #eb2344;
+    /*border-bottom: 3px solid #eb2344;*/
+    border-bottom: 3px solid #B1102B;
 }
 .header-subtitle {
     font-size: 16px;
@@ -328,7 +338,8 @@ h4:after {
 .menu a{
   color: #fff;
   padding:0px;
-  background-color: #eb2344;
+  background-color: #B1102B;
+  /*background-color: #eb2344;*/
   padding-left: 3px;
   padding-right: 3px;
   padding-top: 2px;
