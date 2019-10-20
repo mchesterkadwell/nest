@@ -71,13 +71,13 @@ a.more{
 /* Syntax Highlighting */
 
 pre, code {
-    background: #f8f7fa;
+    /*background: #f8f7fa;*/
     padding: 34px;
     font-size: 16px;
     line-height: 24px;
     font-family: Consolas, monaco, monospace;
     border-radius: 0px;
-    color: #4b505a;
+    /*color: #4b505a;*/
     margin: 34px 0;
     font-weight: 700; 
 }
@@ -92,11 +92,11 @@ code { padding: 3px 6px; }
 	padding-bottom:20px;
 	padding-left:20px;
 	padding-right:0px;
-	background:#333;
+	/*background:#333;*/
 	font-size:14px;
 	font-weight:400;
 	font-family:Consolas,monaco,monospace;
-	color:#fff
+	/*color:#fff*/
 }
 
 .highlight pre {
@@ -107,11 +107,11 @@ code { padding: 3px 6px; }
   padding-bottom: 20px;
   padding-left: 40px;
   padding-right: 40px;
-  background:#333; 
+  /*background:#333; */
   font-size: 14px;
   font-weight: 400;
   font-family: Consolas, monaco, monospace;
-  color: #fff;
+  /*color: #fff;*/
 }
 
 /* Titles */
